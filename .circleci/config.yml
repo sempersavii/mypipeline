@@ -12,6 +12,5 @@ jobs:
       - run: npm install
       - run: npm test
       - snyk/scan:
-          env:
-            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          token-variable: SNYK_TOKEN
           fail-on-issues: true
