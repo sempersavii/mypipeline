@@ -1,8 +1,7 @@
 version: 2.10
 orbs: 
   snyk: snyk/snyk@1.1.2
-env:
-  SNYK_TOKEN: 3551382d-4809-44fa-ac27-86fea9e25657
+
 jobs:
   build:
     docker:
