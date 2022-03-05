@@ -1,8 +1,6 @@
 version: 2.10
 orbs: 
   snyk: snyk/snyk@1.1.2
-env:
-  SNYK_TOKEN: ${{ secrets.SYNK_TOKEN }}
 jobs:
   build:
     docker:
